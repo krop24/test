@@ -1,0 +1,12 @@
+:root {
+    --theme: #1076FF;
+    --text-color: #1E1E1E;
+    --black: #1e1e1e;
+    --container: 1290px;
+    --lg-container: 1420px;
+    --grey: #767676;
+
+    --font: 'Roboto', sans-serif;
+    --heading-font: 'Soyuz Grotesk';
+    --h1-size: 61px;
+}

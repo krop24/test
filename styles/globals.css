@@ -1,0 +1,169 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+html {
+  font-size: 10px;
+}
+
+*, 
+*::before, 
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--font);
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.15em;
+}
+
+a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.theme-color {
+  color: var(--theme);
+}
+
+h1, h2, 
+.heading {
+  font-size: var(--h1-size);
+  line-height: 1em;
+}
+
+h1, h2, 
+.heading, 
+.theme-font {
+  font-family: var(--heading-font);
+}
+
+h4 {
+  line-height: 1.2em;
+}
+
+.container,
+.lg-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: var(--container);
+}
+
+.lg-container {
+    max-width: var(--lg-container);
+}
+
+input, 
+textarea,
+button,
+a {
+  outline: none;
+}
+
+input {
+  border-width: 1px;
+  border-color: #CECECE;
+  border-radius: 12px;
+  padding: 15px 60px 15px 20px;
+}
+
+.input {
+  border-width: 1px;
+  border-color: #CECECE;
+  border-radius: 12px;
+  padding: 15px 20px 15px 20px;
+  max-width: 533px;
+}
+
+button {
+  cursor: pointer;
+}
+
+input {
+  font-size: 18px;
+}
+
+input::placeholder {
+  color: var(--grey);
+}
+
+.button_bordered:hover .button__image {
+  display: none;
+}
+
+.button_bordered .button__image_hover {
+  display: none;
+}
+
+.button_bordered:hover .button__image_hover {
+  display: block;
+}
+
+.theme-font {
+  font-family: var(--font);
+}
+
+.card-heading {
+  font-size: 32px;
+}
+
+.like-btn img:nth-child(1) {
+ display: block;
+}
+
+.like-btn img:nth-child(2) {
+  display: none;
+}
+
+
+.like-btn:hover img:nth-child(1) {
+  display: none;
+ }
+
+ 
+.like-btn:hover img:nth-child(2) {
+  display: block;
+ }
+
+ .link {
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.46px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  color: #1E1E1E;
+  padding: 15px 35px;
+ }
+
+.thumler img:nth-child(1) {
+  display: block;
+}
+
+.thumler img:nth-child(2) {
+  display: none;
+}
+
+
+.thumler:hover img:nth-child(1) {
+  display: none;
+}
+
+
+.thumler:hover img:nth-child(2) {
+  display: block;
+}
