@@ -32,7 +32,7 @@ export default function Home() {
                 <Image src='/assets/images/icons/date.svg' className="absolute top-1/2 right-8 -translate-y-1/2" width='34' height='34' alt="icon"></Image>
               </div>
               <div className='relative'>
-                <input type='text' placeholder='Место' />
+                <input type='text' placeholder='Категории' />
                 <Image src='/assets/images/icons/topic.svg' className='absolute top-1/2 right-8 -translate-y-1/2' width='34' height='34' alt="icon"></Image>
               </div>
               <Button text="Найти новое"></Button>
